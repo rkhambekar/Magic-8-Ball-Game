@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Magic8Ball</title>
+        <meta name="description" content="Magic8Ball challenge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet" />
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <marquee id="marqueeTitle"><p>Magic8Ball Game!</p></marquee>
+
+            <p id="ask"> What would you like to know about the future? </p>
+
+            <p>
+                <input id="question" type="text" placeholder="Ask me anything..." required/>
+            </p>
+
+            <p>
+                <button id="prediction">Make a prediction</button>
+            </p>
+
+            <p id="magic"></p>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

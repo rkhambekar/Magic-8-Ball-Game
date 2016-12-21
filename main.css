@@ -1,0 +1,79 @@
+
+/*my code*/
+
+body {
+    background: burlywood;
+}
+#wrapper {
+    width: 60%;
+    margin: 80px auto;
+    text-align: center;
+}
+p, input, button {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 25px;
+}
+#magic {
+    opacity: 0;
+    text-transform: uppercase;
+    text-decoration: blink;
+    text-shadow: 0 0 80px white,0 0 30px brown,0 0 6px violet;
+}
+
+#marqueeTitle{
+    text-shadow: 0 0 80px white,0 0 30px pink,0 0 6px blue;
+}
+
+#magic:hover { text-shadow: 0 0 200px white,0 0 80px green,0 0 6px cyan; }
+
+p {
+    padding: 15px 0;
+}
+
+input {
+    width: 500px;
+    padding: 5px 15px;
+    background: white;
+    border: 2px solid beige;
+    border-radius: 4px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid red;
+    background-color: lightblue;
+}
+button {
+    background: #FF854A;;
+    color: white;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    padding: 5px 15px;
+    outline: none;
+    box-shadow: 0 .215em .355em #444;
+    text-shadow: none;
+}
+
+button:hover {
+    background: #93CBC0;
+    color: white;
+    border: 2px solid burlywood;
+    cursor: pointer;
+    transform: translateY(2px);
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: teal;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:  teal;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: teal;
+}
+
+#ask{
+    color: green;
+}
